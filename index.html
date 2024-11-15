@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Trilha 2 DEV START</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="nav-container">
+        <nav>
+            <ul class="navegador">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#feed">Feed</a></li>
+                <li><a href="#perfil">Perfil</a></li>
+            </ul>
+        </nav>
+        
+    </div>
+
+    <header>
+        <div class="overlay">
+            <h1>Blog para a Trilha 2 <span>DEV START</span></h1>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <form id="postForm">
+                <label for="titulo">O que está pensando hoje?</label>
+                <input type="text" id="titulo" placeholder="Título" required>
+
+                <label for="mensagem">Deixe aqui sua mensagem...</label>
+                <textarea id="mensagem" placeholder="Conteúdo" required></textarea>
+
+                <button type="submit">Postar</button>
+            </form>
+        </section>
+
+        <section id="resultado">
+            <h2 id="renderizador-titulo">Exemplo de post</h2>
+            <p id="renderizador-conteudo">Aqui ficará sua belissima mensagem</p>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2024 Blog Trilha 2 DEV START
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
